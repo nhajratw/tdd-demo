@@ -1,13 +1,13 @@
 package com.chikli.demo;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class SomethingTest {
+class SomethingTest {
     @Test
-    public void testIt() {
+    void testIt() {
         final Something s1 = new Something();
         final Something s2 = new Something();
 
