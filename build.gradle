@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'com.github.ben-manes.versions' version '0.21.0'
 }
 
 group 'com.chikli.demo'
@@ -12,5 +13,6 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.assertj:assertj-core:3.12.2'
 }
